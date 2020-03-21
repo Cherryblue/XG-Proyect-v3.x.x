@@ -18,4 +18,4 @@
         </tr>
         {/results}
     </table>
-</div>
+</section>

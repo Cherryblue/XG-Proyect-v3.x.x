@@ -1,6 +1,5 @@
-<br>
-<div id="content">
-    <table width="569">
+<section class="mosaic wrap">
+    <table class=validator>
         <tr>
             <td class="c" colspan="2">{construction}</td>
         </tr>
@@ -23,6 +22,8 @@
             </th>
         </tr>
         {/list_of_constructions}
+	</table>
+	<table class=validator>
         <tr>
             <td class="c" colspan="2">{research}</td>
         </tr>
@@ -45,6 +46,8 @@
             </th>
         </tr>
         {/list_of_research}
+	</table>
+	<table class=validator>
         <tr>
             <td class="c" colspan="2">{ships}</td>
         </tr>
@@ -67,6 +70,8 @@
             </th>
         </tr>
         {/list_of_ships}
+	</table>
+	<table class=validator>
         <tr>
             <td class="c" colspan="2">{missiles}</td>
         </tr>
@@ -89,6 +94,8 @@
             </th>
         </tr>
         {/list_of_missiles}
+	</table>
+	<table class=validator>
         <tr>
             <td class="c" colspan="2">{defenses}</td>
         </tr>
@@ -112,4 +119,4 @@
         </tr>
         {/list_of_defenses}
     </table>
-</div>
+</section>

@@ -1,6 +1,5 @@
-<br />
-<div id="content">
-    <table width="519">
+<section class="mosaic wrap">
+    <table>
         <tr>
             <td class="c" colspan="4"><a href="game.php?page=renameplanet" title="{Planet_menu}">{ov_planet} "{planet_name}"</a> ({user_name})</td>
         </tr>
@@ -39,4 +38,4 @@
             <th colspan="3">{user_rank}</td>
         </tr>
     </table>
-</div>
+</section>

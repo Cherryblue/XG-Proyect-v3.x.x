@@ -1,8 +1,3 @@
-<br>
-{middle1}
-<table width="519">
-    <tr>
-        <th class="errormessage">{mes}</th>
-    </tr>
-</table>
-{middle2}
+<section class="sequential wrap centered">
+	<div class="errormessage message">{mes}<div>
+</section>

@@ -4,8 +4,7 @@
         new_win.focus();
     }
 </script>
-<br />
-<div id="content">
+<section class="mosaic wrap">
     <form action="game.php?page=messages" method="post">
         <table width="519">
             <table>
@@ -69,4 +68,4 @@
             </table>
         </table>
     </form>
-</div>
+</section>

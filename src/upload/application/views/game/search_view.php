@@ -1,5 +1,4 @@
-<br />
-<div id="content">
+<section class="sequential centered" style="justify-content: start;">
     <form action="" method="POST">
         <table width="519px">
             <tr>

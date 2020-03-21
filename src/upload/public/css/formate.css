@@ -332,7 +332,7 @@ h1
 
 
 #content {
-	position:absolute;
+	/* position:absolute; */
 	left:190px;
 	scrollbars:none;
 	overflow:auto;
@@ -340,12 +340,11 @@ h1
 	height:100%;
 }
 #header_top {
-	height:66px;
-	position:absolute;
+	/* position:absolute; */
 	left:190px;
 	scrollbars:none;
 	overflow:visible;
-	width:80%;
+	padding: 5px 25px;
 }
 #errorbox {
 	position:absolute;
@@ -380,27 +379,141 @@ td.header, th.header, tr.header, table.header{
 }
 
 #menu {
- width: 190px;
+margin-left: 25px;
  background-color: transparent;
- position: fixed;
- top: 0px;
- left: 0px;
  position: expression("absolute");
 
 }
-#menu[id] {
- position: fixed;
-}
+
 td {
 	background-color	 :#344566;
-border-top           : 0px solid #415680 ;
-font-size            : 11px;
-font-family          : Tahoma,sans-serif; 
-padding				 : 1px;
-vertical-align		 : middle;
+	border-top           : 0px solid #415680 ;
+	font-size            : 11px;
+	font-family          : Tahoma,sans-serif; 
+	padding				 : 1px;
+	vertical-align		 : middle;
 }
 
 .Stil1 {
     color: lime
 }
 
+/******************************************************************************************************************
+ *	LAYOUT DE PL
+ ******************************************************************************************************************/
+
+section{
+	padding: 30px 5px 0 25px;
+	flex: 1;
+}
+
+section article{
+	transition: opacity 0.3s;
+	background: #344566;
+	opacity: 0.7;
+	padding: 5px;
+	margin: 5px;
+	max-height: 130px;
+	
+	align-content: center;
+	align-items: center;
+	
+	min-width: 425px;
+	max-width: 425px;
+}
+
+section article:hover{
+	opacity: 1;
+}
+
+section article p{
+	/* max-width: 25vw; */
+	padding: 5px;
+}
+
+section article button{
+	all: unset;
+	background: #415680;
+	padding: 0 5px;
+	height: 124px;
+	min-width: 50px;
+	max-width: 50px;
+	text-align: center;
+}
+
+section article button+button{
+	display: none;
+}
+
+section img, .message{
+	border: 2px solid rgba(255,255,255,0.2);
+	border-radius: 2px;
+}
+
+/** TOP NAV */
+nav{
+	align-items: center;
+	text-align: center;
+}
+
+nav img+i{
+	margin-top: 2px;
+}
+
+/** Tables */
+table.validator{
+	min-width: 380px;
+	max-width: 380px;
+}
+
+table.validator tr th+th{
+	background: #111621;
+
+}
+
+/** Message */
+.message{
+	padding: 10px;
+	background: #344566;
+	font-weight: bold;
+}
+
+/** Flex Layout */
+.mosaic{
+	display: flex;
+	justify-content: space-around;
+}
+
+.sequential{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.spaceBetween{
+	justify-content: space-between;
+}
+
+.wrap{
+	flex-wrap: wrap;
+}
+
+.extended{
+	flex-grow: 1;
+}
+
+.canShrink{
+	flex-shrink: 1;
+}
+
+.veryExtended{
+	flex-grow: 42;
+}
+
+.centered{
+	align-items: center;
+}
+
+.stretched{
+	align-items: stretch;
+}

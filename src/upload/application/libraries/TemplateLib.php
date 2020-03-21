@@ -62,7 +62,7 @@ class TemplateLib
      * @return void
      */
     public function display($current_page, $topnav = true, $metatags = '', $menu = true)
-    {
+    {		
         $page = '';
 
         if (!defined('IN_MESSAGE')) {
@@ -95,10 +95,10 @@ class TemplateLib
 
         // Merge: Header + Topnav + Menu + Page
         if (!defined('IN_INSTALL')) {
-            $page .= "\n<center>\n" . $current_page . "\n</center>\n";
+            $page .= $current_page;
         } else {
             if (defined('IN_MESSAGE')) {
-                $page .= "\n<center>\n" . $current_page . "\n</center>\n";
+                $page .= $current_page;
             } else {
                 $page .= $current_page;
             }
@@ -116,7 +116,7 @@ class TemplateLib
                 ['year' => $this->current_year]
             );
         }
-
+		
         // Show result page
         die($page);
     }

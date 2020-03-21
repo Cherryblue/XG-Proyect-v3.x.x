@@ -1,5 +1,4 @@
-<br />
-<div id="content">
+<section class="mosaic wrap">
     <form action="" method="post">
         <table width="569">
             <tbody>
@@ -50,4 +49,4 @@
             </tbody>
         </table>
     </form>
-</div>
+</section>

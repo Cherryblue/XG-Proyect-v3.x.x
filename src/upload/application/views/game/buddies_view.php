@@ -1,5 +1,4 @@
-<br/>
-<div id="content">
+<section class="mosaic wrap">
     <table width="520">
         <tr>
             <td class="c" colspan="5">{bu_buddy_list}</td>
@@ -78,4 +77,4 @@
         </tr>
         {/list_of_buddies}
     </table>
-</div>
+</section>

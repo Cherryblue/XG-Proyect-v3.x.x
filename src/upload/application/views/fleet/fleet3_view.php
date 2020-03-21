@@ -24,8 +24,7 @@
         <input type="hidden" name="capacity{ship_id}" value="{capacity}" />
         <input type="hidden" name="ship{ship_id}" value="{ship}" />    
     {/fleet_block}
-    <br />
-    <div id="content">
+    <section class="mosaic wrap">
         <table border="0" cellpadding="0" cellspacing="1" width="519">
             <tr align="left" height="20">
                 <td class="c" colspan="2">{title}</td>
@@ -86,5 +85,5 @@
                 <th colspan="2"><input value="{fl_continue}" type="submit" name="submit"></th>
             </tr>
         </table>
-    </div>
+    </section>
 </form>

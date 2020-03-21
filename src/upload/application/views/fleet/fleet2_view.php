@@ -27,8 +27,7 @@
     <input type="hidden" name="thisplanet" value="{planet}" />
     <input type="hidden" name="thisplanettype" value="{planet_type}" />
     <input type="hidden" name="target_mission" value="{target_mission}" />
-    <br />
-    <div id="content">
+	<section class="mosaic wrap">
         <table width="519" border="0" cellpadding="0" cellspacing="1">
             <tr height="20">
                 <td colspan="2" class="c">{fl_send_fleet}</td>
@@ -107,6 +106,6 @@
                 <th colspan="2"><input type="submit" name="submit" value="{fl_continue}" /></th>
             </tr>
         </table>
-    </div>
+    </section>
 </form>
 <script>javascript:shortInfo();</script>

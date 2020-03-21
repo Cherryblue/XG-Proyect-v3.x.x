@@ -1,5 +1,4 @@
-<br />
-<div id="content">
+<section class="mosaic wrap">
     <table border="0" cellpadding="0" cellspacing="1" width="750px">
         <tbody>
             <tr height="20px" valign="left">
@@ -121,4 +120,4 @@
             {/fleet}
         </tbody>
     </table>
-</div>
+</section>

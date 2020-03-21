@@ -1,5 +1,4 @@
-<br>
-<div id="content">
+<section class="mosaic wrap">
     <script  language="JavaScript">
         function galaxy_submit(value) {
             document.getElementById('auto').name = value;
@@ -320,4 +319,4 @@
             </td>
         </tr>
     </table>
-</div>
+</section>

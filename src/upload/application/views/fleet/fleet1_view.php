@@ -1,7 +1,6 @@
 <script language="JavaScript" src="{js_path}flotten-min.js"></script>
 <script language="JavaScript" src="{js_path}ocnt-min.js"></script>
-<br />
-<div id="content">
+<section class="mosaic wrap">
     <table width="519" border="0" cellpadding="0" cellspacing="1">
         <tr height="20">
             <td colspan="9" class="c">
@@ -57,4 +56,4 @@
         <input type="hidden" name="planet_type" value="{planettype}" />
         <input type="hidden" name="target_mission" value="{target_mission}" />
     </form>
-</div>
+</section>

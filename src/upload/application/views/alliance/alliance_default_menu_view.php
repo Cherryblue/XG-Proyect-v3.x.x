@@ -1,5 +1,4 @@
-<br />
-<div id="content">
+<section class="mosaic wrap">
     <table width=519>
         <tr>
             <td class="c" colspan="2">{al_alliance}</td>
@@ -9,4 +8,4 @@
             <th><a href="game.php?page=alliance&mode=search">{al_alliance_search}</a></th>
         </tr>
     </table>
-</div>
+</section>
